@@ -122,13 +122,13 @@ a:focus {
   width: 100%;
   height: auto;
   padding: 100px 0;
-  text-align: center;
+  text-align: bottom;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/exam.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   -o-background-size: cover;
 }
 .intro .intro-body {
@@ -218,7 +218,19 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  display: top;
+  width: 100%;
+  height: auto;
+  padding: 0px 0;
+  text-align: left;
+  color: green;
+  padding-top: 0px;
+    background: url(../img/why.jpg) no-repeat bottom center scroll;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+
 }
 .download-section {
   width: 100%;
